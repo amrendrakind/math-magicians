@@ -11,9 +11,9 @@ You can find live project at https://amrendrakind.github.io/math-magicians/
 
 ## Built With
 
-- React
-- Jsx
-- Javascript
+- React JS
+- JSX
+- JavaScripts
 - Webpack
 - GitFlow
 
