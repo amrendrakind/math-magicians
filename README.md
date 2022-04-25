@@ -7,7 +7,7 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-You can find project at https://amrendrakind.github.io/math-magicians/
+You can find live project at https://amrendrakind.github.io/math-magicians/
 
 ## Built With
 
