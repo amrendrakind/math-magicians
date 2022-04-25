@@ -1,0 +1,6 @@
+Copyright 2022, Amrendra K
+Permission is hereby granted, free of charge, to any person obtaining a copy of this math-magicians and associated documentation files, to deal in the math-magicians without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the math-magicians, and to permit persons to whom the math-magicians is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the math-magicians.
+
+THE math-magicians IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE math-magicians OR THE USE OR OTHER DEALINGS IN THE math-magicians.
