@@ -1,4 +1,6 @@
+/* eslint-disable react/no-array-index-key */
 import React from 'react';
+import Button from './Button';
 
 const buttons = [
   {
@@ -98,13 +100,19 @@ class Calculator extends React.Component {
   render() {
     const { value } = this.state;
     return (
-      <div>
-        <input type="text" placeholder="0" className="CalcInput" value={value} readOnly />
-        ;
-        <h1>
-          Welcome to Calculator
-          {buttons[0].label}
-        </h1>
+      <div className="calContainer">
+        <input type="text" placeholder="0" className="calInput" value={value} readOnly />
+        <div className="buttonContainer">
+          {
+          buttons.map((button, index) => (
+            <Button
+              label={button.label}
+              isOperator={button.isOperator}
+              key={index}
+            />
+          ))
+      }
+        </div>
       </div>
     );
   }

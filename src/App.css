@@ -1,3 +1,45 @@
-* {
-  margin: 0;
+.calContainer {
+  width: 50%;
+  margin: 10% auto;
+}
+.calInput {
+  width: 315px;
+  height: 50px;
+  text-align: right;
+  background-color: #868691;
+  font-size: 30px;
+  border: 0;
+  padding: 0;
+  padding-right: 5px;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 30px;
+}
+
+.buttonContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  grid-template-rows: repeat(5, 50px);
+}
+
+.zeroButton {
+  grid-column: 1/3;
+  grid-row: 5;
+}
+
+.calButton {
+  border: 1px solid rgb(173, 166, 166);
+  padding: 10px;
+}
+
+.calButton:nth-child(4n),
+.calButton:last-child {
+  background-color: #f6994c;
+}
+
+.calButton:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
