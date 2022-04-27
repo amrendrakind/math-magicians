@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Button extends React.Component {
   constructor(props) {
@@ -21,6 +21,8 @@ export default Button;
 
 Button.defaultProps = {
   label: 'Button',
-  isOperator: false,
-  OnValueChange: () => {},
+};
+
+Button.propTypes = {
+  label: PropTypes.string,
 };

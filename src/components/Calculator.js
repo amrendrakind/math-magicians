@@ -1,4 +1,3 @@
-/* eslint-disable react/no-array-index-key */
 import React from 'react';
 import Button from './Button';
 
@@ -104,11 +103,11 @@ class Calculator extends React.Component {
         <input type="text" placeholder="0" className="calInput" value={value} readOnly />
         <div className="buttonContainer">
           {
-          buttons.map((button, index) => (
+          buttons.map((button) => (
             <Button
               label={button.label}
               isOperator={button.isOperator}
-              key={index}
+              key={button.id}
             />
           ))
       }
