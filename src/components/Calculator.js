@@ -86,27 +86,30 @@ class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: '',
+      total: null,
+      next: 0,
+      // eslint-disable-next-line react/no-unused-state
+      operation: null,
     };
+    this.OnValueChange = this.OnValueChange.bind(this);
   }
 
-  OnValueChange(newValue) {
-    if (newValue.length > 0) {
-      this.setState((prevState) => ({ value: prevState.value.concat(newValue) }));
-    } else this.setState({ value: '' });
+  OnValueChange(calculate) {
+    this.setState({ ...calculate });
   }
 
   render() {
-    const { value } = this.state;
+    const { total, next } = this.state;
     return (
       <div className="calContainer">
-        <input type="text" placeholder="0" className="calInput" value={value} readOnly />
+        <input type="text" placeholder="0" className="calInput" value={next == null && total !== null ? total : next} readOnly />
         <div className="buttonContainer">
           {
           buttons.map((button) => (
             <Button
               label={button.label}
-              isOperator={button.isOperator}
+              OnValueChange={this.OnValueChange}
+              objCalculation={this.state}
               key={button.id}
             />
           ))
