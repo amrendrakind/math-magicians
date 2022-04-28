@@ -88,7 +88,6 @@ class Calculator extends React.Component {
     this.state = {
       total: null,
       next: 0,
-      // eslint-disable-next-line react/no-unused-state
       operation: null,
     };
     this.OnValueChange = this.OnValueChange.bind(this);
@@ -99,10 +98,10 @@ class Calculator extends React.Component {
   }
 
   render() {
-    const { total, next } = this.state;
+    const { total, next, operation } = this.state;
     return (
       <div className="calContainer">
-        <input type="text" placeholder="0" className="calInput" value={next == null && total !== null ? total : next} readOnly />
+        <input type="text" placeholder="0" className="calInput" value={operation === null && next == null && total !== null ? total : next} readOnly />
         <div className="buttonContainer">
           {
           buttons.map((button) => (
