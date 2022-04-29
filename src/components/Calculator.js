@@ -104,6 +104,7 @@ function Calculator() {
   if (total !== null && operation !== null && next !== null) {
     val = total + operation + next;
   }
+
   return (
     <div className="calContainer">
       <input type="text" placeholder="0" className="calInput" value={val} readOnly />
