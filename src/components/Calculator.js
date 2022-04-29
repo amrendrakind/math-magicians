@@ -87,7 +87,7 @@ class Calculator extends React.Component {
     super(props);
     this.state = {
       total: null,
-      next: 0,
+      next: '0',
       operation: null,
     };
     this.OnValueChange = this.OnValueChange.bind(this);
@@ -99,9 +99,22 @@ class Calculator extends React.Component {
 
   render() {
     const { total, next, operation } = this.state;
+    let val;
+    if (total !== null && next === null) {
+      val = total;
+    }
+    if (total === null && operation === null) {
+      val = next;
+    }
+    if (total !== null && operation !== null) {
+      val = total + operation;
+    }
+    if (total !== null && operation !== null && next !== null) {
+      val = total + operation + next;
+    }
     return (
       <div className="calContainer">
-        <input type="text" placeholder="0" className="calInput" value={operation === null && next == null && total !== null ? total : next} readOnly />
+        <input type="text" placeholder="0" className="calInput" value={val} readOnly />
         <div className="buttonContainer">
           {
           buttons.map((button) => (

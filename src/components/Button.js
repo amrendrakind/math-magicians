@@ -32,7 +32,7 @@ Button.defaultProps = {
   objCalculation: {
     total: null,
     next: '0',
-    operator: null,
+    operation: null,
   },
 };
 
@@ -44,6 +44,6 @@ Button.propTypes = {
   objCalculation: PropTypes.objectOf({
     total: PropTypes.string,
     next: PropTypes.string.isRequired,
-    operator: PropTypes.string,
+    operation: PropTypes.string,
   }),
 };
