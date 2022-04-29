@@ -86,27 +86,42 @@ class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: '',
+      total: null,
+      next: '0',
+      operation: null,
     };
+    this.OnValueChange = this.OnValueChange.bind(this);
   }
 
-  OnValueChange(newValue) {
-    if (newValue.length > 0) {
-      this.setState((prevState) => ({ value: prevState.value.concat(newValue) }));
-    } else this.setState({ value: '' });
+  OnValueChange(calculate) {
+    this.setState({ ...calculate });
   }
 
   render() {
-    const { value } = this.state;
+    const { total, next, operation } = this.state;
+    let val;
+    if (total !== null && next === null) {
+      val = total;
+    }
+    if (total === null && operation === null) {
+      val = next;
+    }
+    if (total !== null && operation !== null) {
+      val = total + operation;
+    }
+    if (total !== null && operation !== null && next !== null) {
+      val = total + operation + next;
+    }
     return (
       <div className="calContainer">
-        <input type="text" placeholder="0" className="calInput" value={value} readOnly />
+        <input type="text" placeholder="0" className="calInput" value={val} readOnly />
         <div className="buttonContainer">
           {
           buttons.map((button) => (
             <Button
               label={button.label}
-              isOperator={button.isOperator}
+              OnValueChange={this.OnValueChange}
+              objCalculation={this.state}
               key={button.id}
             />
           ))
