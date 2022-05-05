@@ -55,19 +55,19 @@
 
 .home-container {
   display: flex;
-  align-items: left;
   justify-content: center;
   height: 70vh;
   flex-direction: column;
 }
 
-.home-container p{
+.home-container p {
   font-size: 20px;
 }
 
 .container h3 {
   font-size: 50px;
 }
+
 .quote-container {
   display: flex;
   align-items: center;
@@ -76,10 +76,10 @@
   flex-direction: column;
 }
 
-.quote-container h3{
+.quote-container h3 {
   font-size: 40px;
 }
 
-.quote-container p{
+.quote-container p {
   font-size: 25px;
 }
