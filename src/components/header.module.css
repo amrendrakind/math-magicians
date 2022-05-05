@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding: 0 10px;
+  border-right: 2px solid black;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav li a {
+  font-size: 20px;
+}
+
+a:visited {
+  color: inherit;
+}
+
+nav li a:active {
+  color: rgb(51, 36, 217);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
+}

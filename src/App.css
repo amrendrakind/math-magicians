@@ -1,11 +1,12 @@
 .calContainer {
-  width: 50%;
-  margin: 10% auto;
+  margin-top: 20%;
+  margin-right: 2%;
+  height: 50vh;
 }
 
 .calInput {
-  width: 315px;
-  height: 50px;
+  width: 395px;
+  height: 60px;
   text-align: right;
   background-color: #868691;
   font-size: 30px;
@@ -21,8 +22,8 @@
 
 .buttonContainer {
   display: grid;
-  grid-template-columns: repeat(4, 80px);
-  grid-template-rows: repeat(5, 50px);
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(5, 60px);
 }
 
 .zeroButton {
@@ -43,4 +44,57 @@
 .calButton:hover {
   cursor: pointer;
   opacity: 0.5;
+}
+
+.container {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.home-container p {
+  font-size: 20px;
+}
+
+.container h3 {
+  font-size: 50px;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
+.quote-container h3 {
+  font-size: 40px;
+}
+
+.quote-container p {
+  font-size: 25px;
+}
+
+.calculator-container {
+  padding: 0 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.home-container h4,
+.calculator-container h4 {
+  font-size: 28px;
 }
