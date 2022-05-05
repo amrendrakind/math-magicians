@@ -62,12 +62,10 @@ const buttons = [
     label: '3',
     isOperator: false,
   },
-
   {
     label: '+',
     isOperator: false,
   },
-
   {
     label: '0',
     isOperator: false,
