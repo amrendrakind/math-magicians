@@ -9,7 +9,7 @@ function Header() {
       <nav className={style.navlist}>
         <li className={style.navlink}><NavLink to="/" exact="true">Home</NavLink></li>
         <li className={style.navlink}><NavLink to="/calculator" exact="true">Calculator</NavLink></li>
-        <li className={style.navlink}><NavLink to="/quote" exact="true">Quotes</NavLink></li>
+        <li className={style.navlink}><NavLink to="/quotes" exact="true">Quote</NavLink></li>
       </nav>
     </header>
   );
