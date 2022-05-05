@@ -13,3 +13,12 @@ test('multiply two values', () => {
   const result = operate(2, 3, 'x');
   expect(result).toEqual('6');
 });
+test('divide one value by another', () => {
+  const result = operate(20, 4, '÷');
+  expect(result).toEqual('5');
+});
+
+test('divide one value by another', () => {
+  const result = operate(10, 0, '÷');
+  expect(result).toEqual("Can't divide by 0.");
+});
