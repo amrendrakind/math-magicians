@@ -44,3 +44,11 @@
   cursor: pointer;
   opacity: 0.5;
 }
+
+.container {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
