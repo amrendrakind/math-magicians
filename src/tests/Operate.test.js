@@ -22,3 +22,12 @@ test('divide one value by another', () => {
   const result = operate(10, 0, '÷');
   expect(result).toEqual("Can't divide by 0.");
 });
+test('modulo of one value by another', () => {
+  const result = operate(10, 4, '%');
+  expect(result).toEqual('2');
+});
+
+test('modulo of one value by another', () => {
+  const result = operate(10, 0, '%');
+  expect(result).toEqual("Can't find modulo as can't divide by 0.");
+});
