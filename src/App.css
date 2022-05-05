@@ -59,6 +59,7 @@
   justify-content: center;
   height: 70vh;
   flex-direction: column;
+  padding: 0 10px;
 }
 
 .home-container p {
@@ -75,6 +76,7 @@
   justify-content: center;
   height: 70vh;
   flex-direction: column;
+  padding: 0 10px;
 }
 
 .quote-container h3 {
@@ -86,7 +88,7 @@
 }
 
 .calculator-container {
-  
+  padding: 0 10px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;

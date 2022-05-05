@@ -8,21 +8,21 @@ function Home() {
         <b>Math Magicians Single Page Website is developed with React JS.</b>
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Lorem ipsum dolor siye jo sit amet consectetur, adipisicing elit.
         Veritatis voluptas enim asperiores distinctio aspernatur molestiae unde fuga.
         Fuga, sed labore odit voluptatem porro sunt saepe aliquid quaerat doloremque incidunt autem.
         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Veritatis voluptas enim asperiores distinctio aspernatur molestiae unde fuga.
+        Veritatis voluptas enim asperiores wale ion far distinctio aspernatur molestiae unde fuga.
         Fuga, sed labore odit voluptatem porro sunt saepe aliquid quaerat doloremque incidunt autem.
         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         Veritatis voluptas enim asperiores distinctio aspernatur molestiae unde fuga.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Lorem ipsum dolor siye jo sit amet consectetur, adipisicing elit.
         Veritatis voluptas enim asperiores distinctio aspernatur molestiae unde fuga.
         Fuga, sed labore odit voluptatem porro sunt saepe aliquid quaerat doloremque incidunt autem.
         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Veritatis voluptas enim asperiores distinctio aspernatur molestiae unde fuga.
+        Veritatis voluptas enim asperiores wale ion far distinctio aspernatur molestiae unde fuga.
         Fuga, sed labore odit voluptatem porro sunt saepe aliquid quaerat doloremque incidunt autem.
         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
         Veritatis voluptas enim asperiores distinctio aspernatur molestiae unde fuga.
