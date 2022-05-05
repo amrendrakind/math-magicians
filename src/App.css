@@ -56,7 +56,15 @@
 .home-container {
   padding: 0 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.quote-container {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
 }
