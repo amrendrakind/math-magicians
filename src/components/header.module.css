@@ -16,9 +16,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 0;
+  /* padding: 5px 0; */
 }
 
 header h3 {
   font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0;
 }
