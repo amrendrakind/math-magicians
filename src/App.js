@@ -12,9 +12,9 @@ class App extends React.PureComponent {
       <div>
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/calculator" element={<CalculatorPage />} />
-          <Route path="/quotes" element={<QuotesPage />} />
+          <Route path="/math-magicians" element={<HomePage />} />
+          <Route path="/math-magicians/calculator" element={<CalculatorPage />} />
+          <Route path="/math-magicians/quotes" element={<QuotesPage />} />
         </Routes>
       </div>
     );

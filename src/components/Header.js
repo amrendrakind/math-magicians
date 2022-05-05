@@ -7,9 +7,9 @@ function Header() {
     <header className="container">
       <h3>Math Magicians</h3>
       <nav className={style.navlist}>
-        <li className={style.navlink}><NavLink to="/" exact="true">Home</NavLink></li>
-        <li className={style.navlink}><NavLink to="/calculator" exact="true">Calculator</NavLink></li>
-        <li className={style.navlink}><NavLink to="/quotes" exact="true">Quote</NavLink></li>
+        <li className={style.navlink}><NavLink to="/math-magicians" exact="true">Home</NavLink></li>
+        <li className={style.navlink}><NavLink to="/math-magicians/calculator" exact="true">Calculator</NavLink></li>
+        <li className={style.navlink}><NavLink to="/math-magicians/quotes" exact="true">Quote</NavLink></li>
       </nav>
     </header>
   );
