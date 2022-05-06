@@ -19,7 +19,18 @@ You can find live project at https://amrendrakind.github.io/math-magicians/
 
 ## Live Demo (Link for My Math Magicians Project)
 
-[Live Demo Link](https://amrendrakind.github.io/math-magicians)
+### Github
+
+Take a look at the Math Magician page [Math Magician@GitHub](https://amrendrakind.github.io/math-magicians)
+
+### Heroku
+
+Take a look at the Math Magician page [Math Magician@Heroku](https://math-magician0.herokuapp.com/)
+
+
+### Netlify
+
+Take a look at the Math Magician page [link]()
 
 ## Development set up
 
@@ -87,6 +98,12 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 - GitHub: [@githubhandle](https://github.com/amrendrakind)
 - Twitter: [@twitterhandle](https://twitter.com/amrendrak_)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/amrendraakumar)
+
+## 🤝 Contribution
+
+- GitHub: [@githubhandle](https://github.com/Ol-create)
+- Twitter: [@twitterhandle](https://twitter.com/OluyemiPaul99)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/paul-oluyemi-193966ab)
 
 ## 🤝 Contributing
 
