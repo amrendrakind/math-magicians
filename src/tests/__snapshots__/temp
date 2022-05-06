@@ -1,0 +1,152 @@
++ 
+
+<div
+    +   className="calContainer"
+    + >
+    +   <input
+    +     className="calInput"
+    +     placeholder="0"
+    +     readOnly={true}
+    +     type="text"
+    +     value="0"
+    +   />
+    +   <div
+    +     className="buttonContainer"
+    +   >
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       AC
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       +/-
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       %
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       ÷
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       7
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       8
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       9
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       x
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       4
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       5
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       6
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       -
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       1
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       2
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       3
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       +
+    +     </button>
+    +     <button
+    +       className="calButton zeroButton"
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       0
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       .
+    +     </button>
+    +     <button
+    +       className="calButton  "
+    +       onClick={[Function]}
+    +       type="button"
+    +     >
+    +       =
+    +     </button>
+    +   </div>
+    + </div>
+
+    Snapshot name: `renders correctly 1`
