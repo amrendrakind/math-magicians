@@ -30,7 +30,7 @@ Take a look at the Math Magician page [Math Magician@Heroku](https://math-magici
 
 ### Netlify
 
-Take a look at the Math Magician page [link]()
+Take a look at the Math Magician page [Math Magician@Netlify](https://math-magicians0.netlify.app/)
 
 ## Development set up
 
